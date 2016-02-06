@@ -1,16 +1,17 @@
 CFLAGS=-Wall -g
-OBJS=ex2.o
+OBJS=ex3.o
 
 .PHONY: all cleanbin cleanobj
 
-all: ex2
+all: ex3
 
-ex2: $(OBJS)
+ex3: $(OBJS)
 	$(CC) $(CFLAGS) $^ -o $@
 
 cleanbin:
-	rm -f ex2
+	rm -f ex3
 
 cleanobj:
 	rm -f $(OBJS)
+
 
