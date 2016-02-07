@@ -1,4 +1,4 @@
-SUBDIRS=ex2 ex3
+SUBDIRS=ex2 ex3 ex4
 
 .PHONY: all cleanbin cleanobj
 
